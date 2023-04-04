@@ -104,6 +104,10 @@
       "args": {
         "outputName": "Country.mmdb"
       }
+    },
+    {
+      "type": "text",
+      "action": "output"
     }
   ]
 }
