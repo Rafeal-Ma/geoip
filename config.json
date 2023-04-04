@@ -9,7 +9,7 @@
       }
     },
     {
-      "type": "text",
+      "type": "clashRuleSet",
       "action": "add",
       "args": {
         "name": "netflix",
@@ -18,7 +18,7 @@
     },
 
     {
-      "type": "text",
+      "type": "clashRuleSet",
       "action": "add",
       "args": {
         "name": "cloudflare",
@@ -27,7 +27,7 @@
     },
 
     {
-      "type": "text",
+      "type": "clashRuleSet",
       "action": "add",
       "args": {
         "name": "cloudfront",
@@ -37,7 +37,7 @@
 
 
     {
-      "type": "text",
+      "type": "clashRuleSet",
       "action": "add",
       "args": {
         "name": "facebook",
@@ -48,7 +48,7 @@
 
 
     {
-      "type": "text",
+      "type": "clashRuleSet",
       "action": "add",
       "args": {
         "name": "google",
@@ -58,7 +58,7 @@
 
 
     {
-      "type": "text",
+      "type": "clashRuleSet",
       "action": "add",
       "args": {
         "name": "twitter",
@@ -67,7 +67,7 @@
     },
 
     {
-      "type": "text",
+      "type": "clashRuleSet",
       "action": "add",
       "args": {
         "name": "fastly",
