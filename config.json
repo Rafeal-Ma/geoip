@@ -1,21 +1,90 @@
 {
   "input": [
+    {
+      "type": "clashRuleSet",
+      "action": "add",
+      "args": {
+        "name": "cn",
+        "uri": "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/cncidr.txt"
+      }
+    },
+    {
+      "type": "text",
+      "action": "add",
+      "args": {
+        "name": "netflix",
+        "uri": "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/netflix.txt"
+      }
+    },
 
     {
       "type": "text",
       "action": "add",
       "args": {
-        "name": "telegram",
-        "uri": "https://core.telegram.org/resources/cidr.txt"
+        "name": "cloudflare",
+        "uri": "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/cloudflare.txt"
       }
     },
+
     {
       "type": "text",
       "action": "add",
       "args": {
-        "inputDir": "./data"
+        "name": "cloudfront",
+        "uri": "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/cloudfront.txt"
       }
     },
+
+
+    {
+      "type": "text",
+      "action": "add",
+      "args": {
+        "name": "facebook",
+        "uri": "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/facebook.txt"
+      }
+    },
+
+
+
+    {
+      "type": "text",
+      "action": "add",
+      "args": {
+        "name": "google",
+        "uri": "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/google.txt"
+      }
+    },
+
+
+    {
+      "type": "text",
+      "action": "add",
+      "args": {
+        "name": "twitter",
+        "uri": "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/twitter.txt"
+      }
+    },
+
+    {
+      "type": "text",
+      "action": "add",
+      "args": {
+        "name": "fastly",
+        "uri": "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/fastly.txt"
+      }
+    },
+
+    {
+      "type": "clashRuleSet",
+      "action": "add",
+      "args": {
+        "name": "telegram",
+        "uri": "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/telegramcidr.txt"
+      }
+    },
+
+
     {
       "type": "private",
       "action": "add"
@@ -26,21 +95,15 @@
       "type": "v2rayGeoIPDat",
       "action": "output",
       "args": {
-        "outputName": "geoip.dat",
-        "wantedList": ["private", "telegram"]
+        "outputName": "geoip.dat"
       }
     },
     {
       "type": "maxmindMMDB",
       "action": "output",
       "args": {
-        "outputName": "Country.mmdb",
-        "wantedList": ["private", "telegram"]
+        "outputName": "Country.mmdb"
       }
-    },
-    {
-      "type": "text",
-      "action": "output"
     }
   ]
 }
