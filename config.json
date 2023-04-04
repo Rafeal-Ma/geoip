@@ -1,11 +1,11 @@
 {
   "input": [
     {
-      "type": "clashRuleSet",
+      "type": "clashRuleSetClassical",
       "action": "add",
       "args": {
         "name": "cn",
-        "uri": "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/cncidr.txt"
+        "uri": "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaIPs/ChinaIPs_Classical.yaml"
       }
     },
     {
@@ -76,6 +76,15 @@
     },
 
     {
+      "type": "text",
+      "action": "add",
+      "args": {
+        "name": "youtube",
+        "uri": "https://raw.githubusercontent.com/Rafeal-Ma/My-IP/main/YoutubeIP"
+      }
+    },
+
+    {
       "type": "clashRuleSet",
       "action": "add",
       "args": {
@@ -90,7 +99,8 @@
       "action": "add"
     }
   ],
-  "output": [
+
+ "output": [
     {
       "type": "v2rayGeoIPDat",
       "action": "output",
