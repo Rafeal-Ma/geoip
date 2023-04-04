@@ -1,13 +1,6 @@
 {
   "input": [
-    {
-      "type": "clashRuleSetClassical",
-      "action": "add",
-      "args": {
-        "name": "cn",
-        "uri": "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaIPs/ChinaIPs_Classical.yaml"
-      }
-    },
+   
     {
       "type": "text",
       "action": "add",
