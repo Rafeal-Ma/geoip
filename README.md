@@ -14,7 +14,7 @@
 
 - **geoip.dat**：
   - [GITHUB:geoip.dat](https://raw.githubusercontent.com/Rafeal-Ma/geoip/release/geoip.dat)
-  - [CDN:geoip.dat](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/geoip.dat)
+  - [CDN:geoip.dat](https://cdn.jsdelivr.net/gh/Rafeal-Ma/geoip@release/geoip.dat)
 
 
 ### MaxMind mmdb 格式文件
@@ -23,7 +23,7 @@
 
 - **Country.mmdb**：
   - [GITHUB:Country.mmdb](https://raw.githubusercontent.com/Rafeal-Ma/geoip/release/Country.mmdb)
-  - [CDN:Country.mmdb](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/Country.mmdb)
+  - [CDN:Country.mmdb](https://cdn.jsdelivr.net/gh/Rafeal-Ma/geoip@release/Country.mmdb)
 
  感谢Loyalsoldier的详细教程
 
