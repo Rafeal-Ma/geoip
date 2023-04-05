@@ -92,7 +92,15 @@
         "uri": "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/telegramcidr.txt"
       }
     },
-
+    
+    {
+      "type": "text",
+      "action": "add",
+      "args": {
+        "name": "REJECT",
+        "uri": "https://raw.githubusercontent.com/Rafeal-Ma/My-IP/main/REJECT"
+      }
+    },
 
     {
       "type": "private",
