@@ -97,8 +97,8 @@
       "type": "text",
       "action": "add",
       "args": {
-        "name": "REJECT",
-        "uri": "https://raw.githubusercontent.com/Rafeal-Ma/My-IP/main/REJECT"
+        "name": "apple",
+        "uri": "https://raw.githubusercontent.com/Rafeal-Ma/My-IP/main/Apple"
       }
     },
 
