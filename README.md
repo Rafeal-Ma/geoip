@@ -1,6 +1,6 @@
 # 简介
 
-自用GEOIP，目录：cn,netflix,cloudflare,cloudfront,facebook,google,twitter,fastly,youtube,telegram,private
+自用GEOIP，目录：cn,netflix,cloudflare,cloudfront,facebook,google,twitter,fastly,youtube,telegram,private,apple
 
 
 ## 下载地址
