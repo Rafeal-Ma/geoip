@@ -15,7 +15,7 @@
       "action": "add",
       "args": {
         "name": "google",
-        "uri": "https://raw.githubusercontent.com/Rafeal-Ma/My-IP/main/google.txt"
+        "uri": "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/google.txt"
       }
     },
     
