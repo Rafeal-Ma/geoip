@@ -9,6 +9,17 @@
       }
     },
 
+    
+    {
+      "type": "text",
+      "action": "add",
+      "args": {
+        "name": "global",
+        "uri": "https://raw.githubusercontent.com/Rafeal-Ma/My-IP/main/Global"
+      }
+    },
+    
+    
 
     {
       "type": "text",
